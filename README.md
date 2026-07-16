@@ -16,7 +16,7 @@ Smart Grid Failure Prevention Model | Python, Scikit-learn, Random Forest, K-Mea
 - Evaluated model using ROC-AUC (90.22%), confusion matrix and threshold analysis; tuned decision threshold from 0.50 to 0.358 to achieve 73.5% recall at 8.6% false alarm rate, catching 16 additional failures per cycle
 - Segmented 9,661 healthy assets into 3 actionable maintenance tiers (Low / Medium / High Risk) using K-Means clustering with optimal K selected via Elbow and Silhouette methods, identifying Process Temperature and Tool Wear as primary risk drivers
 
-Personal_proj3: 
+3. Personal_proj3: 
 Financial Complaint Router & Dispute-Risk Predictor | Python, Scikit-learn, LightGBM, SHAP, KeyBERT, spaCy, Sentence-Transformers
 
 - Built an end-to-end complaint triage system on 4,888 real CFPB consumer complaints, comparing TF-IDF, KeyBERT, and NER extraction methods to structure unstructured narratives, and trained a routing classifier achieving 89% accuracy across 3 team categories
